@@ -1,0 +1,72 @@
+#.conkyrc
+#cardinals_fan
+#4/6/2008
+
+# Create own window instead of using desktop (required in nautilus)
+own_window no
+own_window_type override
+own_window_type desktop
+own_window_transparent 1
+own_window_hints undecorated,below,skip_taskbar,skip_pager
+
+# Use double buffering (reduces flicker, may not work for everyone)
+double_buffer yes
+
+# fiddle with window
+use_spacer none
+use_xft yes
+
+# Update interval in seconds
+update_interval 3.0
+
+# Minimum size of text area
+#minimum_size 250 5
+#maximum_width 1280
+
+# Draw shades?
+draw_shades no
+
+# Text stuff
+draw_outline no # amplifies text if yes
+draw_borders no
+uppercase no # set to yes if you want all text to be in uppercase
+
+# Use Xft?
+use_xft yes
+
+# Xft font when Xft is enabled
+xftfont HandleGotD:size=10
+
+# Text alpha when using Xft
+xftalpha 0.5
+
+# Stippled borders?
+stippled_borders 0
+
+# border margins
+border_margin 1
+
+# border width
+border_width 1
+
+# Default colors and also border colors, grey90 == #9d9d9d
+default_color grey
+
+own_window_colour black
+own_window_transparent yes
+
+# Text alignment, other possible values are commented
+alignment top
+#alignment top_right
+#alignment bottom_left
+#alignment bottom_right
+
+# Gap between borders of screen and text
+gap_x 5
+gap_y 5
+
+# stuff after 'TEXT' will be formatted on screen
+
+TEXT
+${color 9d9d9d}${font Terminus:size=9}${time %H:%M %A %B %d}$alignr CPU:$cpu% RAM:$memperc% Mpd:$mpd_smart
+${color 9d9d9d}${hr 1}

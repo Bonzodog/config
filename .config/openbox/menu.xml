@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openbox_menu>
+	<menu id="root-menu" label="Dwarfstar">
+		<menu id="Net" label="Network">
+			<item label="Firefox"> <action name="Execute">
+				<execute>~/Documents/Downloaded/firefox-beta/firefox/firefox</execute>
+			</action> </item>
+			<item label="Midori"> <action name="Execute">
+				<execute>midori</execute>
+			</action> </item>
+			<item label="Slrn"> <action name="Execute">
+				<execute>urxvt -e slrn</execute>
+			</action> </item>
+			<item label="Pidgin"> <action name="Execute">
+				<execute>pidgin</execute>
+			</action> </item>
+			<item label="Weechat"><action name="Execute">
+				<execute>urxvt -e /usr/local/bin/weechat-curses --dir /home/bonzodog/.config/weechat</execute>
+			</action></item>
+		</menu>
+		<menu id="Media" label="Media">
+			<item label="Sonata"> <action name="Execute">
+				<execute>sonata</execute>
+			</action> </item>
+			<item label="Gxine"> <action name="Execute">
+				<execute>gxine</execute>
+			</action> </item>
+			<item label="Grip"><action name="Execute">
+				<execute>grip</execute>
+			</action></item>
+		<item label="Guvcview"><action name="Execute">
+				<execute>guvcview</execute>
+			</action></item>
+		<item label="Skype"><action name="Execute">
+				<execute>skype</execute>
+			</action></item>
+		</menu>
+		<menu id="Graphics" label="Graphics">
+			<item label="Gthumb"> <action name="Execute">
+				<execute>gthumb</execute>
+			</action> </item>
+			<item label="Xpdf"> <action name="Execute">
+				<execute>xpdf</execute>
+			</action> </item>
+			<item label="Gcolor2"><action name="Execute">
+				<execute>gcolor2</execute>
+			</action></item>		
+		</menu>
+		<menu id="Games" label="Games">
+			<item label="Simutrans"> <action name="Execute">
+				<execute>Programs/simutrans/simutrans</execute>
+			</action> </item>
+			<item label="Blackbox"> <action name="Execute">
+				<execute>blackbox</execute>
+			</action> </item>			
+			<item label="Bridges"> <action name="Execute">
+				<execute>bridges</execute>
+			</action> </item>
+			<item label="Cube"> <action name="Execute">
+				<execute>cube</execute>
+			</action> </item>
+			<item label="Dominosa"> <action name="Execute">
+				<execute>dominosa</execute>
+			</action> </item>
+			<item label="Fifteen"> <action name="Execute">
+				<execute>fifteen</execute>
+			</action> </item>
+			<item label="Filling"> <action name="Execute">
+				<execute>filling</execute>
+			</action> </item>
+			<item label="Flip"> <action name="Execute">
+				<execute>flip</execute>
+			</action> </item>
+			<item label="Galaxies"> <action name="Execute">
+				<execute>galaxies</execute>
+			</action> </item>
+			<item label="Guess"> <action name="Execute">
+				<execute>guess</execute>
+			</action> </item>
+			<item label="Inertia"> <action name="Execute">
+				<execute>inertia</execute>
+			</action> </item>
+			<item label="Lightup"> <action name="Execute">
+				<execute>lightup</execute>
+			</action> </item>
+			<item label="Lightup"> <action name="Execute">
+				<execute>lightup</execute>
+			</action> </item>
+			<item label="Loopy"> <action name="Execute">
+				<execute>loopy</execute>
+			</action> </item>
+			<item label="Map"> <action name="Execute">
+				<execute>map</execute>
+			</action> </item>
+			<item label="Mines"> <action name="Execute">
+				<execute>mines</execute>
+			</action> </item>
+			<item label="Net"> <action name="Execute">
+				<execute>net</execute>
+			</action> </item>
+			<item label="Netslide"> <action name="Execute">
+				<execute>netslide</execute>
+			</action> </item>
+			<item label="Pattern"> <action name="Execute">
+				<execute>pattern</execute>
+			</action> </item>
+			<item label="Pegs"> <action name="Execute">
+				<execute>pegs</execute>
+			</action> </item>		
+			<item label="PySol"> <action name="Execute">
+				<execute>pysol.py</execute>
+			</action> </item>
+			<item label="Rect"> <action name="Execute">
+				<execute>rect</execute>
+			</action> </item>
+			<item label="Samegame"> <action name="Execute">
+				<execute>samegame</execute>
+			</action> </item>
+			<item label="Sixteen"> <action name="Execute">
+				<execute>sixteen</execute>
+			</action> </item>
+			<item label="Slant"> <action name="Execute">
+				<execute>slant</execute>
+			</action> </item>
+			<item label="Solo"> <action name="Execute">
+				<execute>solo</execute>
+			</action> </item>
+			<item label="Tents"> <action name="Execute">
+				<execute>tents</execute>
+			</action> </item>
+			<item label="Twiddle"> <action name="Execute">
+				<execute>twiddle</execute>
+			</action> </item>
+			<item label="Unequal"> <action name="Execute">
+				<execute>unequal</execute>
+			</action> </item>
+			<item label="Untangle"> <action name="Execute">
+				<execute>untangle</execute>
+			</action> </item>
+		</menu>
+		<menu id="Other" label="Other">
+			<item label="Abiword"> <action name="Execute">
+				<execute>abiword</execute>
+			</action> </item>
+			<item label="Leafpad"> <action name="Execute">
+				<execute>leafpad</execute>
+			</action> </item>
+			<item label="PCManFM"> <action name="Execute">
+				<execute>pcmanfm</execute>
+			</action> </item>
+			<item label="Galculator"> <action name="Execute">
+				<execute>galculator</execute>
+			</action> </item>
+			<item label="XTerm"> <action name="Execute">
+				<execute>xterm -bg black -fg white -fa inconsolata:pixelsize=12</execute>
+			</action> </item>
+			<item label="Urxvt"> <action name="Execute">
+				<execute>urxvt </execute>
+			</action> </item>
+		</menu>
+		<menu id="System" label="System">
+			<item label="Gtk Theme Changer"> <action name="Execute">
+				<execute>gtk-chtheme</execute>
+			</action> </item>
+			<item label="Enable XScreensaver"> <action name="Execute">
+				<execute>xscreensaver</execute>
+			</action> </item>
+		</menu>
+		<separator/>
+		<menu id="Openbox" label="Openbox">
+			<menu id="client-list-menu" />
+			<item label="Set Wallpaper"> <action name="Execute">
+				<execute>feh -g 640x480 -d -S filename /home/bonzodog/Documents/Pictures/Wallpapers</execute>
+			</action> </item>
+			<item label="Obconf"> <action name="Execute">
+				<execute>obconf</execute>
+			</action> </item>
+			<item label="Reconfigure"> <action name="Reconfigure"/> </item>
+			<separator/>
+			<item label="Exit"> <action name="Exit"/> </item>
+		</menu>
+	</menu>
+</openbox_menu>
+			

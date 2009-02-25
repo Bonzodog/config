@@ -1,0 +1,28 @@
+background yes
+use_xft yes
+xftfont Terminus:size=9
+xftalpha 0.8
+update_interval 5
+own_window no  
+own_window_type normal
+own_window_transparent yes
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+double_buffer yes
+draw_shades no
+draw_outline no
+draw_border no
+draw_graph_borders yes
+stippled_borders no
+default_color white
+default_shade_color black
+alignment top_right
+minimum_size 1270
+maximum_width 1280
+gap_y 10
+gap_x 2
+use_spacer none
+no_buffers yes
+
+TEXT
+${color 9d9d9d}${time %H:%M %A %B %d}${alignr}CPU:$cpu% RAM:$memperc% Mpd:$mpd_smart
+${color 9d9d9d}${hr 1}

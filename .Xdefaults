@@ -1,0 +1,59 @@
+Xcursor*theme:neutral
+
+urxvt*background:		gray25
+urxvt*foreground:		lightgray
+urxvt*cursorColor: 		lightgray
+!urxvt*fading:   		10
+!urxvt*tintColor: 		#000000
+!urxvt*shading:   		25
+urxvt*inheritPixmap: 		false
+urxvt*scrollBar: 		false
+urxvt*title: 			Terminal
+urxvt*termName: 		rxvt-unicode
+urxvt*scrollTtyKeypress:    	true
+urxvt*scrollTtyOutput:      	false
+urxvt*scrollWithBuffer:     	false
+urxvt*perl-lib:			/usr/lib/urxvt/perl
+urxvt*perl-ext-common:		default,tabbed,matcher
+urxvt*urlLauncher:		/home/bonzodog/Documents/Downloaded/firefox-beta/firefox/firefox
+urxvt*matcher.button:		1
+urxvt*scrollstyle:      	plain
+urxvt*secondaryScroll:  	true
+urxvt*cutchars: 		`"'&()urxvt*,;<=>?@[]{|}$`
+urxvt*font: 			xft:Pragmata:pixelsize=10:antialias=true:hinting=true
+urxvt*boldFont: 		xft:Pragmata:pixelsize=10:antialias=true:hinting=true
+urxvt*italicFont: 		xft:Pragmata:pixelsize=10:antialias=true:italic:autohint=true:hinting=true
+urxvt*bolditalicFont: 		xft:Pragmata:pixelsize=10:antialias=true:italic:autohint=true:hinting=true
+urxvt*iconName:			rxvt-unicode
+urxvt*cursorBlink:        	true
+
+! black
+urxvt*color0:             #1F1F1F
+urxvt*color8:             #616161
+! red
+urxvt*color1:             #973F3F
+urxvt*color9:             #FF666D
+! green
+urxvt*color2:             #568453
+urxvt*color10:            #36C32B
+! yellow
+urxvt*color3:             #999838
+urxvt*color11:            #F1F183
+! blue
+urxvt*color4:             #585C9D
+urxvt*color12:            #7CA9DC
+! magenta
+urxvt*color5:             #875182
+urxvt*color13:            #B68AB3
+! cyan
+urxvt*color6:             #519B9D
+urxvt*color14:            #95DFE0
+! white
+urxvt*color7:             #ffffff
+urxvt*color15:            #CCCDD7
+
+xterm*background:	grey40
+xterm*foreground:	white
+xterm*facename:		Terminus:pixelsize=9
+xterm*dynamiccolors: 	true
+
